@@ -1,0 +1,3 @@
+C:/Users/jejik/University/sem2/oaip/cmake-build-debug/CMakeFiles/oaip.dir
+C:/Users/jejik/University/sem2/oaip/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jejik/University/sem2/oaip/cmake-build-debug/CMakeFiles/rebuild_cache.dir
