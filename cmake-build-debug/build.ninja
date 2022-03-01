@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/jejik/University/sem2/oaip/cmake-build-debug/
 
 build cmake_object_order_depends_target_oaip: phony || CMakeFiles/oaip.dir
 
-build CMakeFiles/oaip.dir/main.cpp.obj: CXX_COMPILER__oaip_Debug C$:/Users/jejik/University/sem2/oaip/main.cpp || cmake_object_order_depends_target_oaip
-  DEP_FILE = CMakeFiles\oaip.dir\main.cpp.obj.d
+build CMakeFiles/oaip.dir/oaip_4.cpp.obj: CXX_COMPILER__oaip_Debug C$:/Users/jejik/University/sem2/oaip/oaip_4.cpp || cmake_object_order_depends_target_oaip
+  DEP_FILE = CMakeFiles\oaip.dir\oaip_4.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\oaip.dir
   OBJECT_FILE_DIR = CMakeFiles\oaip.dir
@@ -63,7 +63,7 @@ build CMakeFiles/oaip.dir/main.cpp.obj: CXX_COMPILER__oaip_Debug C$:/Users/jejik
 #############################################
 # Link the executable oaip.exe
 
-build oaip.exe: CXX_EXECUTABLE_LINKER__oaip_Debug CMakeFiles/oaip.dir/main.cpp.obj
+build oaip.exe: CXX_EXECUTABLE_LINKER__oaip_Debug CMakeFiles/oaip.dir/oaip_4.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\oaip.dir
